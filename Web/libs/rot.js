@@ -10,6 +10,6 @@ function _rot() {
     .size(20, 10)
     .id("_o")
     
-    r.innerHTML += "<br>"
+    r.innerHTML += "<br><br>"
     document.getElementById("_o").value = "30"
 }

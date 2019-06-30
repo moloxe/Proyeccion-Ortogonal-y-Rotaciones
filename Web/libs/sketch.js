@@ -14,5 +14,11 @@ function setup() {
 	createButton("Calcular Proyección")
 		.parent("_point")
 		.mousePressed(proy)
+	// document.getElementById("_o").value = 180
 	proy()
+	// setInterval(function(){
+	// 	proy()
+	// 	let t = parseFloat(document.getElementById("_o").value) + 10
+	// 	document.getElementById("_o").value = t
+	// }, 500);
 }
