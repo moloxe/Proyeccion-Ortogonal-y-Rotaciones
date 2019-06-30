@@ -20,12 +20,6 @@ function _TL() {
 		_d+")) / " +
 		"(("+a+")^2 + ("+b+")^2 ("+c+")^2)"
 	
-	let t = new Expression("x + " + _t  + "*" + a)
-	print(t.simplify().toString())
-	// t = new Equation(t, 0)
-	// print(t.toString())
-	// print(t.solveFor("x").toString())
-	
 	TL.align = "center"
 	TL.innerHTML = "<br>t = " + _t + "<br><br>"
 	TL.innerHTML += `

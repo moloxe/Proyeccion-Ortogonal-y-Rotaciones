@@ -7,17 +7,17 @@ function _point() {
   
   X = createInput()
     .parent("_point")
-    .size(18, 8)
+    .size(20, 10)
     .id("X")
   P.innerHTML += ", "
   Y = createInput()
     .parent("_point")
-    .size(18, 8)
+    .size(20, 10)
     .id("Y")
   P.innerHTML += ", "
   Z = createInput()
     .parent("_point")
-    .size(18, 8)
+    .size(20, 10)
     .id("Z")
   P.innerHTML += ")<br><br>"
   

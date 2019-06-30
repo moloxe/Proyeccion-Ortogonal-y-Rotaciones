@@ -1,6 +1,4 @@
-let cnv, a_input, b_input, c_input, d_input, X, Y, Z
-var Expression = algebra.Expression
-var Equation = algebra.Equation
+let cnv, a_input, b_input, c_input, d_input, X, Y, Z, O
 
 function setup() {
 
@@ -8,15 +6,13 @@ function setup() {
 		.parent("cnv")
 		.hide()
 	document.getElementById("cnv").align = "center"
-
+	
 	_plane()
 	_point()
+	_rot()
+
 	createButton("Calcular Proyección")
 		.parent("_point")
 		.mousePressed(proy)
+	proy()
 }
-/*
-function draw() {
-	background(220);
-}
-*/
