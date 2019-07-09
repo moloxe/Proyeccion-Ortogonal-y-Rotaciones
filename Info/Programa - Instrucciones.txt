@@ -1,0 +1,8 @@
+
+-> Entrar a la carpeta "Programa" y abrir "index.html" con un navegador.
+-> Ingresar los parámetros para la ecuación del plano.
+-> Indicar el punto a proyectar.
+-> Indicar el ángulo de rotación en el eje Z.
+
+-> Enlace del repositorio en Github:
+	https://github.com/francoMG/Proyeccion-Ortogonal-y-Rotaciones
